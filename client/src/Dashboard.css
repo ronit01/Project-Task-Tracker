@@ -1,0 +1,26 @@
+.list-project {
+    display: flex;
+    flex-direction: column;
+}
+
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.create-project {
+    width: 60%;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.create-project-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list-project {
+    width: 60%;
+}

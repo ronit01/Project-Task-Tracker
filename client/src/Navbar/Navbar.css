@@ -1,0 +1,58 @@
+.navbar {
+    background-color: lightgrey;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.notification-box {
+    position: fixed;
+    top: 60px;
+    right: 20px;
+    width: 300px;
+    border: 1px solid #ccc;
+    background-color:  lightblue;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 10px;
+    z-index: 1000;
+}
+
+.notification-box ul {
+list-style-type: none;
+padding: 0;
+margin: 0;
+display: flex;
+flex-direction: column-reverse;
+}
+
+.notification-box li {
+padding: 8px;
+border-bottom: 1px solid #eee;
+}
+
+.notification-box li:last-child {
+border-bottom: none;
+}
+
+.nav-left {
+    padding: 10px;
+    font-weight: 800;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.nav-ele {
+    padding: 0 15px;
+    cursor: pointer;
+}
