@@ -14,6 +14,11 @@ To build a comprehensive application that combines project management and task t
 2. Enable users to invite collaborators to join projects using email invitations or direct links.
 3. Integrate a task manager where users can add, assign, and track tasks, set deadlines, and update statuses.
 
+##Photo![Screenshot 2024-05-19 152818](https://github.com/ronit01/Project-task-tracker/assets/91108281/fcdf69da-aecf-468a-9cbe-92f33780c660)
+
+
+
+
 ## Tech Stack
 
 - **Frontend:**
